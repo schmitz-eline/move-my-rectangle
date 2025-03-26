@@ -19,9 +19,6 @@ const app = {
         this.update();
         this.rect.draw();
         this.addEventListeners();
-        requestAnimationFrame(() => {
-            this.update();
-        });
     },
     resizeCanvas() {
         this.canvas.width = window.innerWidth;
